@@ -1,5 +1,6 @@
 body {
-
+width: 900px;
+margin: auto;
 }
 
 .madlib h1 {
@@ -7,4 +8,9 @@ text-align: center;
 margin: auto;
 text-decoration: underline;
 font-size: 80px;
+}
+
+.madlibtxt {
+font-size: 20px;
+width: 1200px;
 }
