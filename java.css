@@ -14,3 +14,8 @@ font-size: 80px;
 font-size: 20px;
 width: 1200px;
 }
+
+.variable {
+text-decoration: underline;
+color: blue;
+}
