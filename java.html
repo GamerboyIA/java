@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Page</title>
+  </head>
+
+<body>
+  <h1>JavaScript Example</h1>
+
+  <div id="content"></div>
+
+  <script>
+   function getname() {
+   let mydiv = document.getElementById("content");
+   let user_input = prompt("What is your name?"); 
+   mydiv.innerHTML = "Hello " + user_input;
+}
+  </script>
+ <button onClick="getname();")>Click me!</button>
+
+</body>
+</html>
