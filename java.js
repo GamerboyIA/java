@@ -1,3 +1,22 @@
+document.addEventListener('keydown', function(event) {
+if ( event.key.length == 1 ) {
+ let paper = document.getElementById("paper");
+ paper.innerHTML += event.key; 
+
+} else if ( event.key == "Enter" ) {
+
+ let paper = document.getElementById("paper");
+ paper.innerHTML += "<br>";
+
+} else if ( event.key == "Backspace" ) {
+  let paper = document.getElementById("paper");
+  let text = paper.innerHTML;
+  text = text.substring(0,text.length-1);
+  paper.innerHTML = text;
+}
+});
+
+
 
 function a() {
   document.getElementById("otpt").innerHTML += "a";
@@ -54,7 +73,3 @@ caps = false;
 } else {
 caps = true;
 }
-
-
-
-
